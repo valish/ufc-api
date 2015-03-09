@@ -1,0 +1,30 @@
+{
+  "name": "ufc",
+  "version": "0.1.0",
+  "description": "NodeJS API for UFC.com",
+  "main": "./lib/ufc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valish/ufc-api.git"
+  },
+  "keywords": [
+    "UFC",
+    "MMA",
+    "API",
+    "Fighter",
+    "Metrics"
+  ],
+  "author": "= <=>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valish/ufc-api/issues"
+  },
+  "homepage": "https://github.com/Valish/ufc-api",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.53.0"
+  }
+}
