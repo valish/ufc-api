@@ -19,7 +19,7 @@ From npm:
 ```
 > var ufc = require('ufc');
 > var url = "http://www.ufc.com/fighter/Jon-Jones"
-> ufc.fighter(url, function(data) {
+> ufc.getFighter(url, function(data) {
     console.log(data);
   });
 > {
@@ -41,22 +41,20 @@ From npm:
     "jiu-jitsu",
     "muay thai"
   ],
-  "metrics": {
-    "strikes": {
-      "attempted": 1679,
-      "successful": 916,
-      "standing": 541,
-      "clinch": 188,
-      "ground": 187
-    },
-    "takedowns": {
-      "attempted": 64,
-      "successful": 33,
-      "submissions": 10,
-      "passes": 22,
-      "sweeps": 0
-    }
+  "strikes": {
+    "attempted": 1679,
+    "successful": 916,
+    "standing": 541,
+    "clinch": 188,
+    "ground": 187
   },
+  "takedowns": {
+    "attempted": 64,
+    "successful": 33,
+    "submissions": 10,
+    "passes": 22,
+    "sweeps": 0
+  }
   "fights": []
 }
 ```
