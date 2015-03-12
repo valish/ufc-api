@@ -3,6 +3,8 @@
 
 Crawls and parses fighter data from UFC.com fighter profiles
 
+*This api is used in the higher-level [MMA API](https://github.com/valish/mma-api).
+
 ## Install
 From source:
 
